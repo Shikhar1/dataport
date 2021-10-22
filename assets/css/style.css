@@ -157,7 +157,7 @@ section {
 .header {
   transition: all 0.5s;
   z-index: 997;
-  padding: 40px 0 20px 0;
+  padding: 70px 0 20px 0;
 }
 .header.header-scrolled {
   background: #fff;
@@ -168,7 +168,7 @@ section {
   line-height: 0;
 }
 .header .logo img {
-  max-height: 40px;
+  max-height: 50px;
   margin-right: 6px;
 }
 .header .logo span {
