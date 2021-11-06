@@ -483,12 +483,16 @@ margin-top: 30px;
 @media (min-width: 1024px) {
   .hero {
     background-attachment: fixed;
+        margin-top: 10px;
+
   }
 }
 @media (max-width: 991px) {
   .hero {
     height: auto;
     padding: 120px 0 60px 0;
+        margin-top: 20px;
+
   }
   .hero .hero-img {
     text-align: center;
@@ -501,7 +505,8 @@ margin-top: 30px;
 @media (max-width: 768px) {
   .hero {
     text-align: center;
-    margin-top: 30px;
+        margin-top: 30px;
+
   }
   .hero h1 {
     font-size: 32px;
