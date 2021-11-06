@@ -483,9 +483,9 @@ margin-top: 30px;
 @media (min-width: 1024px) {
   .hero {
     background-attachment: fixed;
-        margin-top: 10px;
-
   }
+    .hero2{margin-top: 10px;}
+
 }
 @media (max-width: 991px) {
   .hero {
@@ -505,9 +505,10 @@ margin-top: 30px;
 @media (max-width: 768px) {
   .hero {
     text-align: center;
-        margin-top: 30px;
-
+        
   }
+  
+  .hero2{margin-top: 30px;}
   .hero h1 {
     font-size: 32px;
   }
