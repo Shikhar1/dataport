@@ -16,7 +16,8 @@ body {
   font-family: "Open Sans", sans-serif;
   color: #444444;
 }
-
+.dp2{width: 50%;
+    margin-left: 10px;}
 a {
   color: #4154f1;
   text-decoration: none;
