@@ -970,7 +970,7 @@ background-color: #f6f9ff;}
   font-weight: 600;
   border: 0;
   font-size: 18px;
-  color: #4154f1;
+  color: #4154f1 !important;
   text-align: left;
 }
 .faq .accordion-button:focus {
