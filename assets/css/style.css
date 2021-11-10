@@ -967,7 +967,7 @@ background-color: #f6f9ff;}
 }
 .faq .accordion-button {
   padding: 15px 15px 20px 0;
-  font-weight: 600;
+  font-weight: bold;
   border: 0;
   font-size: 18px;
   color: #4154f1 !important;
@@ -985,6 +985,7 @@ background-color: #f6f9ff;}
   padding: 0 0 25px 0;
   border: 0;
       color: #4154f1;
+  font-weight:bold;
 }
 
 /*--------------------------------------------------------------
