@@ -917,7 +917,7 @@ background-color: #f6f9ff;}
 .pricing ul {
   padding: 0;
   list-style: none;
-  color: #444444;
+color: #012970;
   text-align: center;
   line-height: 26px;
   font-size: 16px;
@@ -934,8 +934,7 @@ background-color: #f6f9ff;}
   display: inline-block;
   padding: 8px 40px 10px 40px;
   border-radius: 50px;
-  color: #4154f1;
-  transition: none;
+color: #012970;  transition: none;
   font-size: 16px;
   font-weight: 400;
   font-family: "Nunito", sans-serif;
