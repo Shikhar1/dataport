@@ -2132,7 +2132,6 @@ padding: 40px 40px;
 /* Next & previous buttons */
 .prev {
   cursor: pointer;
-  position: absolute;
   top: 50%;
   width: auto;
   margin-top: -30px;
@@ -2160,7 +2159,6 @@ padding: 40px 40px;
 
 /* Position the "next button" to the right */
 .next {
-  position: absolute;
   right: 0;
   border-radius: 3px 0 0 3px;
 }
