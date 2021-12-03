@@ -2115,169 +2115,74 @@ color: #012970;  transition: none;
   font-size: 13px;
   color: #012970;
 }
-.happyclients{
-	width: 100%;
-	height: 70vh;
-	padding: 40px 0 40px 0;
-	font-weight: 700;
-    color: #013289;
-}
 
-.box{
-	text-align: center;
-	border: 1px solid rgba(0, 0, 0, 0.1);
-    box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.3);
-    border-radius: 2px;
-    transition: 0.3s ease;
-}
 
-.box:hover{
-	background:  #16c9f6;
-}
-
-.box:hover .box a:after{
-	background: white!important;
-}
-
-.box:hover p{
-	color: white;
-}
-
-.carousel-indicators {
-    position: absolute;
-    right: 0;
-    bottom: -60px!important;
-   }
-
-.carousel-indicators li{
-	background-color: #16c9f6!important;
-}
-
-.box a {
-	position: relative;
-}
-
-.box a img{
-	width: 100px;
-    height: 100px;
-    border-radius: 50%;
-    margin-top: 20px;
-}
-
-.box a:after{
-	content: "\f10d";
-	font-family: FontAwesome;
-	width: 40px;
-	height: 40px;
-	background:linear-gradient(to right, #1e5799 0%, #3ccdbb 0%, #16c9f6 100%);
-	color: white;
-	position: absolute;
-	top: 120%;
-	left: 70%;
-	border-radius: 50%;
-	display: flex;
-	justify-content: center;
-	align-items: center;
-}
-
-.box h1{
-	font-weight: 700;
-    font-size: 18px;
-    margin-bottom: 10px;
-    color: #000;
-}
-
-.box h2{
-	font-size: 13px;
-	font-weight: 400;
-    color: #666666;
-    margin-bottom: 20px;
-}
-.carousel-indicators li {
-    box-sizing: content-box;
-    -ms-flex: 0 1 auto;
-    flex: 0 1 auto;
-    width: 30px;
-    height: 3px;
-    margin-right: 3px;
-    margin-left: 3px;
-    text-indent: -999px;
-    cursor: pointer;
-    background-color: #fff;
-    background-clip: padding-box;
-    border-top: 10px solid transparent;
-    border-bottom: 10px solid transparent;
-    opacity: .5;
-    transition: opacity .6s ease;
-}
-.carousel-indicators .active {
-    opacity: 1;
-}
-
-.container_car {
+.slideshow-container {
   position: relative;
-  width: 320px;
-  margin: 100px auto 0 auto;
-  perspective: 1000px;
+  background: #f1f1f1f1;
 }
 
-.carousel_car {
-  position: absolute;
-  width: 100%;
-  height: 100%;
-  transform-style: preserve-3d;
-  animation: rotate360 60s infinite forwards linear;
-}
-.carousel__face {
-  position: absolute;
-  width: 300px;
-  height: 187px;
-  top: 20px;
-  left: 10px;
-  right: 10px;
-  background-size: cover;
-  box-shadow:inset 0 0 0 2000px rgba(0,0,0,0.5);
-  display: flex;
-}
-
-.carousel__face span {
-  margin: auto;
+/* Slides */
+.mySlides {
+  display: none;
+  padding: 80px;
   text-align: center;
-  font-size: 1rem;
-    color: #ffffff;
-    padding: 5px;
 }
 
-
-.carousel__face:nth-child(1) {
-background-color: #3b49b6;  transform: rotateY(  0deg) translateZ(430px); }
-.carousel__face:nth-child(2) {
-background-color: #3b49b6;    transform: rotateY( 50deg) translateZ(430px); }
-.carousel__face:nth-child(3) {
-background-color: #3b49b6;  transform: rotateY( 100deg) translateZ(430px); }
-.carousel__face:nth-child(4) {
-background-color: #3b49b6;  transform: rotateY(150deg) translateZ(430px); }
-.carousel__face:nth-child(5) {
-background-color: #3b49b6; transform: rotateY(200deg) translateZ(430px); }
-.carousel__face:nth-child(6) {
-background-color: #3b49b6; transform: rotateY(250deg) translateZ(430px); }
-
-
-
-@keyframes rotate360 {
-  from {
-    transform: rotateY(0deg);
-  }
-  to {
-    transform: rotateY(-360deg);
-  }
-}
-@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
-  .carousel{width: 50%;}
-  .carousel__face{width: 200px;height: 120px;}
-  span {font-size: 1rem;}
-
-  }
-
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -30px;
+  padding: 16px;
+  color: #888;
+  font-weight: bold;
+  font-size: 20px;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
 }
 
+/* Position the "next button" to the right */
+.next {
+  position: absolute;
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+  color: white;
+}
+
+/* The dot/bullet/indicator container */
+.dot-container {
+    text-align: center;
+    padding: 20px;
+    background: #ddd;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+/* Add a background color to the active dot/circle */
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+/* Add an italic font style to all quotes */
+q {font-style: italic;}
+
+/* Add a blue color to the author */
+.author {color: cornflowerblue;}
