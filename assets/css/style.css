@@ -2125,7 +2125,7 @@ color: #012970;  transition: none;
 /* Slides */
 .mySlides {
   display: none;
-  padding: 80px;
+padding: 40px 40px;
   text-align: center;
 }
 
