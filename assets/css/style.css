@@ -2221,7 +2221,7 @@ color: #012970;  transition: none;
   perspective: 1000px;
 }
 
-.carousel {
+.carousel_car {
   position: absolute;
   width: 100%;
   height: 100%;
@@ -2264,7 +2264,6 @@ background-color: #3b49b6; transform: rotateY(250deg) translateZ(430px); }
 
 
 
-
 @keyframes rotate360 {
   from {
     transform: rotateY(0deg);
@@ -2282,46 +2281,3 @@ background-color: #3b49b6; transform: rotateY(250deg) translateZ(430px); }
 
 }
 
-/* Smartphones (landscape) ----------- */
-@media only screen and (min-width : 321px) {
-  .carousel{width: 50%;}
-  .carousel__face{width: 200px;height: 120px;}
-  span {font-size: 1rem;}
-
-}
-
-/* Smartphones (portrait) ----------- */
-@media only screen and (max-width : 320px) {
-  .carousel{width: 50%;}
-  .carousel__face{width: 200px;height: 120px;}
-  span {font-size: 1rem;}
-
-
-}
-
-/* iPads (portrait and landscape) ----------- */
-@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) {
-  .carousel{width: 50%;}
-  .carousel__face{width: 200px;height: 120px;}
-  span {font-size: 1rem;}
-
-
-}
-
-/* iPads (landscape) ----------- */
-@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : landscape) {
-  .carousel{width: 50%;}
-  .carousel__face{width: 200px;height: 120px;}
-  span {font-size: 1rem;}
-
-
-}
-
-/* iPads (portrait) ----------- */
-@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : portrait) {
-  .carousel{width: 50%;}
-  .carousel__face{width: 200px;height: 120px;}
-  span {font-size: 1rem;}
-
-
-}
