@@ -869,7 +869,24 @@ I recommend using Dataport for your accounting to accounting data transfer & syn
     time:3000
   })
   </script>
+	   <script>
+	    $('.demo[data-type="multi"] .item').each(function() {
+	var next = $(this).next();
+	if (!next.length) {
+		next = $(this).siblings(':first');
+	}
+	next.children(':first-child').clone().appendTo($(this));
 
+	for (var i = 0; i < 2; i++) {
+		next = next.next();
+		if (!next.length) {
+			next = $(this).siblings(':first');
+		}
+
+		next.children(':first-child').clone().appendTo($(this));
+	}
+});
+ </script>
 
 </body>
 
