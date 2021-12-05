@@ -139,18 +139,49 @@
           <p style="color:#fff;">6 ways Dataport can help your business</p>
         </header>
 
-       <div class="container_car">
-  <div class="carousel_car">
-    <div class="carousel__face"><span>100% Data Accuracy. Free from human data entry errors.</span></div>
-    <div class="carousel__face"><span>No manual data punching. Complete cloud base automation.</span></div>
-    <div class="carousel__face"><span>Save Manpower. Saves time. Increase productivity.</span></div>
-    <div class="carousel__face"><span>Maintain log of integrated enteries.</span></div>
-    <div class="carousel__face"><span>Automatic creation of masters</span></div>
-    <div class="carousel__face"><span>Eliminates dual enteries into different systems.</span></div>
+      <div class="row">		     
 
-  </div>
+
+<div class="mySlidess">
+  <p style="color: #013289;font-weight:700;"> 100% Data Accuracy. Free from human data entry errors.</p>
 </div>
 
+
+<div class="mySlidess">
+    <p style="color: #013289;font-weight:700;"> No manual data punching. Complete cloud base automation.</p>
+</div>
+
+<div class="mySlidess">
+   <p style="color: #013289;font-weight:700;">Save Manpower. Saves time. Increase productivity.</p>
+</div>
+
+<div class="mySlidess">
+   <p style="color: #013289;font-weight:700;">Maintain log of integrated enteries.</p>
+</div>
+
+<div class="mySlidess">
+   <p style="color: #013289;font-weight:700;">Automatic creation of masters.</p>
+</div>
+
+<div class="mySlidess">
+   <p style="color: #013289;font-weight:700;">Eliminates dual enteries into different systems.</p>
+</div>
+
+	<div class="row text-center">
+<a class="prev" onclick="plusSlidess(-1)">❮</a>
+<a class="next" onclick="plusSlidess(1)">❯</a>
+	</div>
+
+</div>
+
+<div class="dot-container">
+  <span class="dots" onclick="currentSlides(1)"></span>
+  <span class="dots" onclick="currentSlides(2)"></span>
+  <span class="dots" onclick="currentSlides(3)"></span>
+</div>
+	   </div>
+	      
+	      
         </div>
 
       </div>
@@ -830,6 +861,36 @@ function showSlides(n) {
   dots[slideIndex-1].className += " active";
 }
 </script>
+	
+	<script>
+		
+		 var slideIndex = 1;
+showSlides(slideIndex);
+
+function plusSlidess(n) {
+  showSlides(slideIndex += n);
+}
+
+function currentSlides(n) {
+  showSlides(slideIndex = n);
+}
+
+function showSlidess(n) {
+  var i;
+  var slides = document.getElementsByClassName("mySlidess");
+  var dots = document.getElementsByClassName("dots");
+  if (n > slides.length) {slideIndex = 1}
+  if (n < 1) {slideIndex = slides.length}
+  for (i = 0; i < slidess.length; i++) {
+      slides[i].style.display = "none";
+  }
+  for (i = 0; i < dots.length; i++) {
+      dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";
+  dots[slideIndex-1].className += " active";
+}
+	</script>
 
 
 </body>
