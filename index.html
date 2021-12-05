@@ -883,34 +883,7 @@ function showSlides(n) {
 </script>
 	
 	<script>
-		
-		 var slideIndex = 1;
-showSlides(slideIndex);
-
-function plusSlidess(n) {
-  showSlides(slideIndex += n);
-}
-
-function currentSlides(n) {
-  showSlides(slideIndex = n);
-}
-
-function showSlidess(n) {
-  var i;
-  var slides = document.getElementsByClassName("mySlidess");
-  var dots = document.getElementsByClassName("dots");
-  if (n > slides.length) {slideIndex = 1}
-  if (n < 1) {slideIndex = slides.length}
-  for (i = 0; i < slidess.length; i++) {
-      slides[i].style.display = "none";
-  }
-  for (i = 0; i < dots.length; i++) {
-      dots[i].className = dots[i].className.replace(" active", "");
-  }
-  slides[slideIndex-1].style.display = "block";
-  dots[slideIndex-1].className += " active";
-}
-	</script>
+	
 
 
 </body>
