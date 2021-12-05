@@ -2199,3 +2199,26 @@ q {font-style: italic;}
 .author {color: cornflowerblue;}
 
 .navbar .active{background:none;}
+
+@media (max-width: 768px) {
+ video {
+   width:100%;
+  }
+}
+/* The dots/bullets/indicators */
+.dots {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+/* Slides */
+.mySlidess {
+  display: none;
+padding: 40px 40px;
+  text-align: center;
+}
