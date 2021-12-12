@@ -2204,10 +2204,11 @@ q {font-style: italic;}
  video {
    width:100%;
   }
-}
 
 .benefits{ display:contents;}
 .benefits li{ margin:30px 0;}
+}
+
 
 .carousel {
     margin-left: 15%;
