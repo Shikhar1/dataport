@@ -2206,6 +2206,8 @@ q {font-style: italic;}
   }
 }
 
+.benefits{ display:contents;}
+.benefits li{ margin:30px 0;}
 
 .carousel {
     margin-left: 15%;
