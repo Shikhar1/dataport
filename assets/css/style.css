@@ -2340,5 +2340,12 @@ input#img-6:checked ~ .carousel-dots label#img-dot-6 {
 
 
 input:checked + .slide-container .nav label { display: block; }
-containers{display:flex;}
-wrap{margin-right:25px;}
+
+.containers{display:flex;flex-direction:row;}
+.wrap{margin-right:27px;}
+
+@media (max-width: 768px) {
+	.containers{display:cntents;flex-direction:column;}
+
+
+}
